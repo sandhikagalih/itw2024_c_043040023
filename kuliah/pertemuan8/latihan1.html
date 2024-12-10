@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS3</title>
+    <style>
+      div {
+        width: 150px;
+        height: 150px;
+        margin: 150px auto;
+      }
+
+      .kotak1 {
+        background-color: lightblue;
+        border-radius: 100px 100px 100px 0;
+      }
+
+      .kotak2 {
+        background-color: salmon;
+        transition: 2s all;
+      }
+
+      .kotak2:hover {
+        box-shadow: 0 0 5px 5px black;
+        background-color: lightblue;
+        transform: rotate(360deg) scale(0.3);
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak1"></div>
+    <div class="kotak2"></div>
+  </body>
+</html>
